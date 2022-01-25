@@ -20,3 +20,18 @@
 # "i would like " + 5 + " tacos"
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
+
+
+#set the first die  and write it to screen
+die1= rand(1..6)
+puts die1 
+
+# set the second die and write it to screen
+die2 = rand(1..6)
+puts die2
+
+puts die1 + die2
+
+# create a variable for the total and write it to screen
+total = die1 +die2
+puts "the total is: #{die1 + die2}"
