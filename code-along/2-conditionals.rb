@@ -48,9 +48,22 @@ else
 end
 
 # Elsif Conditional Logic
+your_team_score = 2
+other_team_score = 2
+if your_team_score > other_team_score
+    puts "you won"
+elsif your_team_score == other_team_score
+    puts "it was a tie"
+else
+    puts "sorry, lost it"
+end
 
 # Combining Expressions
 
-
+temp =68
+precip =0
+if temp >= 65 && temp <=90 && precip == 0
+    puts "it's perfect outside!"
+end
 
 #Boolean expressions
